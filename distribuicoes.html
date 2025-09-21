@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Distribuições Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Linux</a>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="fundamentos.html">Fundamentos</a>
+        <a href="distribuicoes.html" class="active">Distribuições</a>
+        <a href="comandos.html">Comandos</a>
+        <a href="relevancia.html">Relevância</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Título/Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Distribuições Linux</h1>
+      <p class="hero-subtitle">Conheça algumas das principais distribuições do Linux.</p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <main class="container main">
+    <h2>Distribuições Populares</h2>
+    <div class="cards-container">
+
+      <!-- Card 1 -->
+      <div class="card" data-modal="modal1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkC_oVS9RZmBy6jLyKuufSFV2I5ASt1s51w&s" alt="Ubuntu" class="card-icon">
+        <h3>Ubuntu</h3>
+        <p>Focado em usabilidade e muito popular em desktops.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-modal="modal2">
+        <img src="https://t2.tudocdn.net/750320?w=824&h=494" alt="Debian" class="card-icon">
+        <h3>Debian</h3>
+        <p>Estável, robusto e base para várias outras distros.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-modal="modal3">
+        <img src="https://t2.tudocdn.net/706478?w=1920&h=1080" alt="Fedora" class="card-icon">
+        <h3>Fedora</h3>
+        <p>Voltado para novidades e inovação tecnológica.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modais -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Ubuntu</h2>
+      <p>O <strong>Ubuntu</strong> é uma das distros mais populares, voltada para iniciantes e uso no dia a dia.</p>
+      <ul>
+        <li>Lançado em 2004</li>
+        <li>Baseado no Debian</li>
+        <li>Interface amigável (GNOME)</li>
+      </ul>
+      <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840/https%3A%2F%2Fubuntu.com%2Fwp-content%2Fuploads%2Fd944%2Fyaru-screenshot-large.jpg" alt="Ubuntu desktop" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Debian</h2>
+      <p>O <strong>Debian</strong> é conhecido pela sua estabilidade e filosofia de software livre.</p>
+      <table>
+        <tr><th>Característica</th><th>Descrição</th></tr>
+        <tr><td>Estabilidade</td><td>Atualizações menos frequentes, mas muito testadas</td></tr>
+        <tr><td>Base</td><td>Serve como base para várias distros (Ubuntu, Mint...)</td></tr>
+        <tr><td>Comunidade</td><td>Grande e colaborativa</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Fedora</h2>
+      <p>O <strong>Fedora</strong> é uma distro inovadora, com atualizações rápidas e foco em novas tecnologias.</p>
+      <ul>
+        <li>Patrocinada pela Red Hat</li>
+        <li>Testa recursos que depois chegam ao RHEL</li>
+        <li>Ideal para quem gosta de novidades</li>
+      </ul>
+      <img src="https://s2-techtudo.glbimg.com/zUBJTCK59Id9e-nCVLQraZU9we8=/400x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2015/06/23/fedora-3.png" alt="Fedora desktop" class="modalimg">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Luiz Gabriel 1DS</p>
+    <p>ETEC Zona Leste</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

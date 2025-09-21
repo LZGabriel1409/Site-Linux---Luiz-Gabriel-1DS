@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fundamentos do Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Linux</a>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="fundamentos.html" class="active">Fundamentos</a>
+        <a href="distribuicoes.html">Distribuições</a>
+        <a href="comandos.html">Comandos</a>
+        <a href="relevancia.html">Relevância</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Título/Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Fundamentos do Linux</h1>
+      <p class="hero-subtitle">Conheça os conceitos básicos que tornam o Linux único.</p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <main class="container main">
+    <h2>Explore os Fundamentos</h2>
+    <div class="cards-container">
+
+      <!-- Card 1 -->
+      <div class="card" data-modal="modal1">
+        <img src="https://www.edivaldobrito.com.br/wp-content/uploads/2024/09/kernel-6-11-lancado-com-varios-novos-recursos-e-melhorias.webp" alt="Kernel Linux" class="card-icon">
+        <h3>Kernel</h3>
+        <p>O núcleo que gerencia todo o sistema operacional.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-modal="modal2">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200611192530/GREP-SHELL.jpg" alt="Shell Linux" class="card-icon">
+        <h3>Shell</h3>
+        <p>A interface que conecta o usuário ao sistema.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-modal="modal3">
+        <img src="https://4infrasite.storage.googleapis.com/wp-content/uploads/2024/04/14195526/Sistemas-de-Arquivos-Linux.png" alt="Sistema de Arquivos" class="card-icon">
+        <h3>Sistema de Arquivos</h3>
+        <p>Como o Linux organiza e acessa os dados.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modais -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Kernel</h2>
+      <p>O <strong>Kernel</strong> é o coração do Linux. Ele gerencia a comunicação entre hardware e software.</p>
+      <ul>
+        <li>Gerencia processos</li>
+        <li>Controla memória</li>
+        <li>Gerencia dispositivos</li>
+      </ul>
+      <img src="https://www.webasha.com/blog/uploads/images/202401/image_750x_65aa20d135e28.webp" alt="Kernel Linux" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Shell</h2>
+      <p>O <strong>Shell</strong> é o interpretador de comandos que permite ao usuário interagir com o sistema.</p>
+      <table>
+        <tr><th>Shell</th><th>Características</th></tr>
+        <tr><td>Bash</td><td>Mais comum e padrão no Linux</td></tr>
+        <tr><td>Zsh</td><td>Personalizável e poderoso</td></tr>
+        <tr><td>Fish</td><td>Amigável e moderno</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Sistema de Arquivos</h2>
+      <p>O Linux organiza os arquivos em uma <strong>árvore hierárquica</strong> começando pelo diretório raiz <code>/</code>.</p>
+      <ul>
+        <li><code>/home</code> – arquivos dos usuários</li>
+        <li><code>/bin</code> – programas essenciais</li>
+        <li><code>/etc</code> – arquivos de configuração</li>
+        <li><code>/var</code> – logs e dados variáveis</li>
+      </ul>
+      <img src="https://img.vivaolinux.com.br/imagens/artigos/comunidade/Artigo_01.jpg" alt="Sistema de arquivos Linux" class="modalimg">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Luiz Gabriel 1DS</p>
+    <p>ETEC Zona Leste</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

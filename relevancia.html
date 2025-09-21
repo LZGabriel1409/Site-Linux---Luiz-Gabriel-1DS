@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Relevância do Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Linux</a>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="fundamentos.html">Fundamentos</a>
+        <a href="distribuicoes.html">Distribuições</a>
+        <a href="comandos.html">Comandos</a>
+        <a href="relevancia.html" class="active">Relevância</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Título/Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Relevância do Linux</h1>
+      <p class="hero-subtitle">Conheça a importância do Linux em diversos locais</p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <main class="container main">
+    <h2>Por que o Linux importa?</h2>
+    <div class="cards-container">
+
+      <!-- Card 1 -->
+      <div class="card" data-modal="modal1">
+        <img src="https://e-tinet.com/wp-content/uploads/2017/02/MELHORES-DISTRIBUICOES-LINUX-RODAR-SERVIDORES-2.png" alt="servidores" class="card-icon">
+        <h3>Servidores</h3>
+        <p>Estabilidade e desempenho em data centers e hospedagem de sites.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-modal="modal2">
+        <img src="https://brasilcloud.com.br/wp-content/uploads/2022/11/cloud-container-infra-monitoring.png" alt="cloud containers" class="card-icon">
+        <h3>Nuvem & Containers</h3>
+        <p>Base para infraestruturas em nuvem e tecnologias como Docker/Kubernetes.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-modal="modal3">
+        <img src="https://static.endpointprotector.com/br/blog/2022/05/blog-Linux-and-Data-Security-The-Myths-Challenges-and-Solutions-1200x365px-br-100.jpg" alt="seguranca" class="card-icon">
+        <h3>Segurança</h3>
+        <p>Controle de permissões, atualizações e auditoria são pontos fortes.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card" data-modal="modal4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrTo0cJqw0PwRJZThu_U3mr4xjkY6x8gx1Tg&s" alt="iot" class="card-icon">
+        <h3>IoT & Embarcados</h3>
+        <p>Leveza e flexibilidade para dispositivos inteligentes e embarcados.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card" data-modal="modal5">
+        <img src="https://img-c.udemycdn.com/course/240x135/2244980_029d_2.jpg" alt="mercado e carreiras" class="card-icon">
+        <h3>Mercado & Carreiras</h3>
+        <p>Demanda por profissionais que dominam Linux em infra e desenvolvimento.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modais -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Linux em Servidores</h2>
+      <p>Linux é amplamente usado em servidores por oferecer estabilidade, desempenho e baixo custo.</p>
+      <ul>
+        <li>Servidores web, bancos de dados e aplicações corporativas</li>
+        <li>Gestão remota e automação (scripts, cron)</li>
+        <li>Suporte a virtualização e contêineres</li>
+      </ul>
+      <table>
+        <thead>
+          <tr><th>Uso</th><th>Exemplo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Web</td><td>Apache, Nginx</td></tr>
+          <tr><td>Bancos</td><td>MySQL, PostgreSQL</td></tr>
+          <tr><td>Virtualização</td><td>KVM, Xen</td></tr>
+        </tbody>
+      </table>
+      <img src="https://secbitrez.wordpress.com/wp-content/uploads/2018/12/servidores2.png" alt="servidores 2" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Nuvem e Containers</h2>
+      <p>Linux é a base da maior parte das infraestruturas em nuvem e das plataformas de containerização.</p>
+      <ul>
+        <li>Imagens de container normalmente usam kernels Linux</li>
+        <li>Kubernetes e Docker rodam em nós Linux na maior parte das implantações</li>
+      </ul>
+      <table>
+        <tr><th>Tecnologia</th><th>Função</th></tr>
+        <tr><td>Docker</td><td>Empacotar aplicações</td></tr>
+        <tr><td>Kubernetes</td><td>Orquestração de contêineres</td></tr>
+        <tr><td>OpenStack</td><td>Plataforma de nuvem</td></tr>
+      </table>
+      <img src="https://azuredays.com/wp-content/uploads/2017/11/dockerandazureecosystem_thumb.png" alt="containers" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Segurança</h2>
+      <p>Permissões, separação de privilégios e atualizações regulares tornam o Linux uma escolha sólida para ambientes críticos.</p>
+      <ul>
+        <li>Modelo de permissões (user/group/others)</li>
+        <li>Ferramentas de auditoria e logs</li>
+        <li>Gerenciamento de atualizações via repositórios</li>
+      </ul>
+      <img src="https://www.hostmidia.com.br/img/blog/upload/xg-linux-mais-seguro.jpg" alt="seguranca 2" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>IoT e Embarcados</h2>
+      <p>Linux e suas variantes leves são muito usados em dispositivos conectados e sistemas embarcados por serem adaptáveis.</p>
+      <ul>
+        <li>Sistemas embarcados (ex.: buildroot, Yocto)</li>
+        <li>Raspberry Pi e outras placas usam Linux para protótipos</li>
+        <li>Atualizações e segurança são essenciais em IoT</li>
+      </ul>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" alt="raspberry.jpg" class="modalimg">
+    </div>
+  </div>
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Mercado e Carreiras</h2>
+      <p>Conhecer Linux abre portas em áreas como administração de sistemas, cloud, segurança e desenvolvimento.</p>
+      <ul>
+        <li>Vagas em TI frequentemente exigem conhecimentos em Linux</li>
+        <li>Ferramentas de DevOps e SRE são baseadas em Linux</li>
+        <li>Comunidade e certificações (ex.: LFCS, RHCSA)</li>
+      </ul>
+      <table>
+        <tr><th>Área</th><th>Exemplo de função</th></tr>
+        <tr><td>Infraestrutura</td><td>Administrador de sistemas</td></tr>
+        <tr><td>Cloud/DevOps</td><td>Engenheiro de DevOps</td></tr>
+        <tr><td>Segurança</td><td>Analista de segurança</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Luiz Gabriel 1DS</p>
+    <p>ETEC Zona Leste</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

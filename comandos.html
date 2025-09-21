@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Comandos Linux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Linux</a>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="historia.html">História</a>
+        <a href="fundamentos.html">Fundamentos</a>
+        <a href="distribuicoes.html">Distribuições</a>
+        <a href="comandos.html" class="active">Comandos</a>
+        <a href="relevancia.html">Relevância</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Título/Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Comandos Linux</h1>
+      <p class="hero-subtitle">Conheça os comandos básicos para navegar e administrar o Linux.</p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <main class="container main">
+    <h2>Principais Comandos</h2>
+    <div class="cards-container">
+
+      <!-- Card 1 -->
+      <div class="card" data-modal="modal1">
+        <img src="https://arquivo.devmedia.com.br/marketing/img/artigo-comandos-basicos-do-linux-listando-diretorios-17135-ls.png" alt="Comando ls" class="card-icon">
+        <h3>ls</h3>
+        <p>Lista arquivos e diretórios.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-modal="modal2">
+        <img src="https://edgarjayo.wordpress.com/wp-content/uploads/2020/11/image-11.png" alt="Comando cd" class="card-icon">
+        <h3>cd</h3>
+        <p>Navega entre pastas do sistema.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-modal="modal3">
+        <img src="https://arquivo.devmedia.com.br/marketing/img/artigo-comandos-basicos-do-linux-manipulando-diretorios-18118-mkdir.png" alt="Comando mkdir" class="card-icon">
+        <h3>mkdir</h3>
+        <p>Cria novos diretórios.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card" data-modal="modal4">
+        <img src="https://images.wondershare.com/recoverit/article/remove-directory-linux-rm.png" alt="Comando rm" class="card-icon">
+        <h3>rm</h3>
+        <p>Remove arquivos ou pastas.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card" data-modal="modal5">
+        <img src="https://sempreupdate.com.br/wp-content/uploads/2022/02/terminal-linux-tudo-o-que-um-iniciante-no-mundo-linux-precisa-saber.png" alt="Comando sudo" class="card-icon">
+        <h3>sudo</h3>
+        <p>Executa tarefas como administrador.</p>
+        <button class="btn-card">Ver mais</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modais -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>ls</h2>
+      <p>Exibe os arquivos e diretórios dentro da pasta atual.</p>
+      <table>
+        <tr><th>Comando</th><th>Função</th></tr>
+        <tr><td>ls</td><td>Lista arquivos</td></tr>
+        <tr><td>ls -l</td><td>Lista com detalhes</td></tr>
+        <tr><td>ls -a</td><td>Inclui arquivos ocultos</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>cd</h2>
+      <p>Permite mudar de diretório dentro do sistema Linux.</p>
+      <ul>
+        <li><code>cd /home</code> → Vai para a pasta home</li>
+        <li><code>cd ..</code> → Volta uma pasta</li>
+        <li><code>cd ~</code> → Vai para a pasta pessoal</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>mkdir</h2>
+      <p>Cria novos diretórios.</p>
+      <ul>
+        <li><code>mkdir projetos</code> → Cria a pasta "projetos"</li>
+        <li><code>mkdir -p dir1/dir2</code> → Cria estrutura de pastas</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>rm</h2>
+      <p>Remove arquivos e diretórios.</p>
+      <table>
+        <tr><th>Comando</th><th>Descrição</th></tr>
+        <tr><td>rm arquivo.txt</td><td>Apaga um arquivo</td></tr>
+        <tr><td>rm -r pasta/</td><td>Apaga uma pasta inteira</td></tr>
+        <tr><td>rm -f arquivo.txt</td><td>Força a exclusão sem pedir confirmação</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>sudo</h2>
+      <p>Executa comandos como superusuário (administrador).</p>
+      <ul>
+        <li><code>sudo apt update</code> → Atualiza pacotes</li>
+        <li><code>sudo reboot</code> → Reinicia o sistema</li>
+        <li><code>sudo rm -r /</code> → Apaga tudo</li>
+      </ul>
+      <img src="https://sempreupdate.com.br/wp-content/uploads/2022/02/terminal-linux-tudo-o-que-um-iniciante-no-mundo-linux-precisa-saber.png" alt="Terminal sudo" class="modalimg">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Luiz Gabriel 1DS</p>
+    <p>ETEC Zona Leste</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
