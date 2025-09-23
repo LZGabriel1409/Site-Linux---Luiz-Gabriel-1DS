@@ -187,10 +187,10 @@ th, td {
 
 /* Footer */
 footer {
-  background-color: #000;
+  background: linear-gradient(to right, #000, #1b5e20);
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 2px;
   margin-top: 40px;
 }
 
@@ -210,3 +210,4 @@ footer {
     font-size: 36px;
   }
 }
+
